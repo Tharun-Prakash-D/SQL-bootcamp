@@ -1,0 +1,5 @@
+create table students(id int primary key auto_increment,name varchar(20),age int,gender varchar(10));
+insert into students values(1,"Tharun Prakash",22,"Male"),(2,"Karthik",22,"Male"),(3,"Gurusharan",22,"Male");
+update students set name ="Janet" where id = 2;
+delete from students where id =3;
+select * from students;
